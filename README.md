@@ -1,6 +1,8 @@
 ##Avr Programming Examples.
 - [ ] Avr Intro
 - [ ] DIO
+	- [X] Blinky
+	- [X] Button
 - [ ] ADC
 - [ ] PWM
 - [ ] Timer/Counter
