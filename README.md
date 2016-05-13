@@ -1,1 +1,24 @@
 ##Avr Programming Examples.
+- [ ] Avr Intro
+- [ ] DIO
+- [ ] ADC
+- [ ] PWM
+- [ ] Timer/Counter
+- [ ] Interrupt
+- [ ] EEPROM
+- [ ] WDT
+- [ ] Sleep
+- [ ] LCD
+- [ ] Motors
+	- [ ] DC Motor PWM
+	- [ ] H Bridge
+	- [ ] Stepper Motor
+	- [ ] Servo Motor
+- [ ] UART
+	- [ ] Software Serial
+- [ ] SPI
+	- [ ] SPI EEPROM
+	- [ ] Micro to Micro SPI Commn
+- [ ] I2C
+	- [ ] RTC
+	- [ ] EEPROM
