@@ -5,7 +5,9 @@
 	- [X] Button
 - [ ] ADC
 - [ ] PWM
-- [ ] Timer/Counter
+- [ ] Timer
+- [ ] Counter
+- [ ] Capture Compare
 - [ ] Interrupt
 - [ ] EEPROM
 - [ ] WDT
