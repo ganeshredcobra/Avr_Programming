@@ -1,6 +1,6 @@
 #USART Explained
 
-![Alt text](/Img/USART_BlkDiag.png "Block Diagram")
+![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/UART/Img/USART_BlkDiag.png "Block Diagram")
 
 ##Registers
 Register | Description
