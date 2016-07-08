@@ -56,3 +56,10 @@ UBRRH = (COMPUTE_BAUD(baud) >> 8) & 0xff;
 UBRRL = (COMPUTE_BAUD(baud)) & 0xff;
 ```
 So UBRRH = 0 and UBRRL = 0xC
+###Control Register and 8 bits setting
+```c
+UCSRC = (1 << URSEL) | (1 << UCSZ1) | (1 << UCSZ0);
+```
+* __Bit 7 – URSEL: Register Select__
+This bit selects between accessing the UCSRC or the UBRRH Register. It is read as one when
+reading UCSRC. The URSEL must be one when writing the UCSRC.
