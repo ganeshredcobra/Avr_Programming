@@ -60,6 +60,12 @@ So UBRRH = 0 and UBRRL = 0xC
 ```c
 UCSRC = (1 << URSEL) | (1 << UCSZ1) | (1 << UCSZ0);
 ```
+ ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/UART/Img/UCSRC.png "UCSRC")
+
 * __Bit 7 – URSEL: Register Select__
 This bit selects between accessing the UCSRC or the UBRRH Register. It is read as one when
 reading UCSRC. The URSEL must be one when writing the UCSRC.
+
+* __UCSZ bit selection for 8 bits__
+
+ ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/UART/Img/UCSZ.png "UCSZ")
