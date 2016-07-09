@@ -69,3 +69,22 @@ reading UCSRC. The URSEL must be one when writing the UCSRC.
 * __UCSZ bit selection for 8 bits__
 
  ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/UART/Img/UCSZ.png "UCSZ")
+ 
+ ###Transmit Function
+ 
+ ```c
+void uart_send_byte(uint8_t c)
+{
+    while( !(UCSRA & (1 <<UDRE) ) );
+    UDR = c;
+}
+```
+ ###Receive Function
+ 
+ ```c
+uint8_t uart_recv_byte(void)
+{
+    while( !(UCSRA & (1 <<RXC)) );
+    return UDR;
+}
+```
