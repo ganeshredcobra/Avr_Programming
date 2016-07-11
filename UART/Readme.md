@@ -88,6 +88,7 @@ uint8_t uart_recv_byte(void)
     return UDR;
 }
 ```
+![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/UART/Img/UCSRA.png "UCSRA")
 
 * __Bit 7 – RXC: USART Receive Complete__
 This flag bit is set when there are unread data in the receive buffer and cleared when the receive
