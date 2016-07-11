@@ -88,3 +88,15 @@ uint8_t uart_recv_byte(void)
     return UDR;
 }
 ```
+
+* __Bit 7 – RXC: USART Receive Complete__
+This flag bit is set when there are unread data in the receive buffer and cleared when the receive
+buffer is empty (that is, does not contain any unread data). If the receiver is disabled, the receive
+buffer will be flushed and consequently the RXC bit will become zero. The RXC Flag can be
+used to generate a Receive Complete interrupt (see description of the RXCIE bit).
+
+* __Bit 5 – UDRE: USART Data Register Empty__
+The UDRE Flag indicates if the transmit buffer (UDR) is ready to receive new data. If UDRE is
+one, the buffer is empty, and therefore ready to be written. The UDRE Flag can generate a Data
+Register empty Interrupt (see description of the UDRIE bit).
+UDRE is set after a reset to indicate that the transmitter is ready.
