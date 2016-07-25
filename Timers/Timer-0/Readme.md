@@ -22,6 +22,9 @@ void timer0_init()
 ###TCCR0 - Timer Counter Control Register
 ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/TCCR0.png "TCCR0")
 
+Bit 2:0 – CS02:0: Clock Select
+The three Clock Select bits select the clock source to be used by the Timer/Counter.
+
 ###CSB - Clock Select Bits
 
 ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/CSB.png "TCCR0")
