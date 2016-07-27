@@ -29,3 +29,11 @@ The three Clock Select bits select the clock source to be used by the Timer/Coun
 
 ![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/CSB.png "TCCR0")
  
+###TCNT0 - Timer/Counter Register
+
+![Alt text](https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/TCNTO.png "TCNT0")
+
+The Timer/Counter Register gives direct access, both for read and write operations, to the
+Timer/Counter unit 8-bit counter. Writing to the TCNT0 Register blocks (removes) the compare
+match on the following timer clock. Modifying the counter (TCNT0) while the counter is running,
+introduces a risk of missing a compare match between TCNT0 and the OCR0 Register.
