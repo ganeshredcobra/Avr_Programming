@@ -7,7 +7,8 @@ Register | Description
  TCCR0 |Timer Counter Control Register
  TCNT0 | Timer/CounterRegister
  
- ##Code Explanation
+##Code Explanation
+
 ###Init Function
 ```c
 void timer0_init()
@@ -37,3 +38,15 @@ The Timer/Counter Register gives direct access, both for read and write operatio
 Timer/Counter unit 8-bit counter. Writing to the TCNT0 Register blocks (removes) the compare
 match on the following timer clock. Modifying the counter (TCNT0) while the counter is running,
 introduces a risk of missing a compare match between TCNT0 and the OCR0 Register.
+
+##Timer Count Calculation
+
+How we got this TCNT0 value?
+
+```c
+if (TCNT0 >= 200)
+```
+
+###Prescaler Timer Calculation
+
+
