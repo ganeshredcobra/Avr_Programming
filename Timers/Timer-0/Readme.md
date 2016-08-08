@@ -49,4 +49,11 @@ if (TCNT0 >= 200)
 
 ###Prescaler Timer Calculation
 
+Timer Count Calculation for 10ms with 8MHz Crystal
+
+![Alt text] (https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/freq.jpg "Frequency")
+
+![Alt text] (https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/time.jpg "Time")
+
+![Alt text] (https://github.com/ganeshredcobra/Avr_Programming/blob/master/Timers/IMG/TC.jpg "Timer Count")
 
